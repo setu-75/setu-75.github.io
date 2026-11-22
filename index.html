@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Md. Rofikuzzaman — Production Planning &amp; Control | Portfolio</title>
+<meta name="description" content="Portfolio of Md. Rofikuzzaman (Setu), Executive — Production Planning & Control at Global Steel & Engineering Ltd. 9+ years in tower & tyre manufacturing: production planning, machine installation & commissioning, maintenance, and cutting optimisation.">
+<style>
+:root{
+  --bg:#0B1620; --panel:#101E2B; --panel2:#16273A; --border:#28405A;
+  --text:#E7EEF5; --dim:#8FA6BD; --faint:#7490AC;
+  --accent:#F0A93B; --accent-dark:#C6841E; --accent-text:#1B1305;
+  --success:#4FAE7E;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:"Segoe UI",system-ui,-apple-system,Roboto,"Helvetica Neue",Arial,sans-serif;line-height:1.65}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+nav{position:sticky;top:0;z-index:50;background:rgba(11,22,32,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:58px}
+.logo{font-weight:800;font-size:19px;letter-spacing:.4px}
+.logo span{color:var(--accent)}
+nav .links a{color:var(--dim);margin-left:22px;font-size:14.5px}
+nav .links a:hover{color:var(--accent);text-decoration:none}
+@media(max-width:720px){nav .links{display:none}}
+.hero{padding:64px 0 46px;background:radial-gradient(900px 420px at 85% -10%,rgba(240,169,59,.13),transparent 60%),radial-gradient(700px 380px at 0% 110%,rgba(74,144,196,.12),transparent 60%)}
+.hero-grid{display:flex;gap:38px;align-items:center;flex-wrap:wrap}
+.avatar{width:168px;height:168px;border-radius:50%;object-fit:cover;border:4px solid var(--accent);box-shadow:0 14px 40px rgba(0,0,0,.5);flex:none}
+.hero h1{font-size:42px;line-height:1.15;font-weight:800}
+.hero h1 .nick{color:var(--accent)}
+.hero .role{font-size:19px;color:var(--accent);font-weight:600;margin-top:6px}
+.hero .tag{color:var(--dim);max-width:620px;margin-top:12px;font-size:16px}
+.btns{margin-top:22px;display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:11px 22px;border-radius:10px;font-weight:700;font-size:15px;border:1px solid var(--border);background:var(--panel2);color:var(--text)}
+.btn:hover{text-decoration:none;filter:brightness(1.12)}
+.btn.primary{background:linear-gradient(180deg,#FFC65C,var(--accent));color:var(--accent-text);border-color:var(--accent-dark)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:44px}
+@media(max-width:720px){.stats{grid-template-columns:repeat(2,1fr)}.hero h1{font-size:32px}}
+.stat{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:18px;text-align:center}
+.stat b{display:block;font-size:27px;color:var(--accent)}
+.stat span{color:var(--dim);font-size:13.5px}
+section{padding:52px 0 8px}
+h2{font-size:27px;font-weight:800;margin-bottom:6px}
+h2::after{content:"";display:block;width:56px;height:3px;background:var(--accent);border-radius:2px;margin-top:8px}
+.sub{color:var(--dim);margin-bottom:24px;max-width:760px}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:16px;padding:24px;margin-bottom:16px}
+.timeline{position:relative;margin-left:10px;padding-left:28px;border-left:2px solid var(--border)}
+.job{position:relative;margin-bottom:30px}
+.job::before{content:"";position:absolute;left:-37px;top:6px;width:14px;height:14px;border-radius:50%;background:var(--accent);border:3px solid var(--bg);box-shadow:0 0 0 2px var(--accent)}
+.job h3{font-size:19px}
+.job .meta{color:var(--accent);font-weight:600;font-size:14.5px}
+.job .place{color:var(--faint);font-size:14px;margin-bottom:8px}
+.job ul{margin-left:18px;color:var(--dim);font-size:15px}
+.job ul li{margin-bottom:4px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+@media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.grid{grid-template-columns:1fr}}
+.skill h3{font-size:16.5px;margin-bottom:6px;color:var(--text)}
+.skill p{color:var(--dim);font-size:14.5px}
+.tag{display:inline-block;background:var(--panel2);border:1px solid var(--border);color:var(--dim);border-radius:999px;padding:3px 12px;font-size:13px;margin:3px 4px 3px 0}
+.project{display:flex;gap:24px;flex-wrap:wrap;align-items:flex-start}
+.project .txt{flex:1;min-width:280px}
+.badge{display:inline-block;background:rgba(79,174,126,.15);color:var(--success);border:1px solid var(--success);border-radius:999px;padding:2px 12px;font-size:12.5px;font-weight:700;margin-bottom:10px}
+.ach li{margin-bottom:10px;color:var(--dim);margin-left:18px}
+.ach b{color:var(--text)}
+.kv{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+@media(max-width:700px){.kv{grid-template-columns:1fr}}
+.kv h3{font-size:16.5px;margin-bottom:4px}
+.kv p{color:var(--dim);font-size:14.5px}
+footer{margin-top:56px;border-top:1px solid var(--border);background:var(--panel);padding:36px 0 30px}
+footer .cols{display:flex;gap:30px;flex-wrap:wrap;justify-content:space-between}
+footer p{color:var(--dim);font-size:14.5px}
+.copy{margin-top:22px;color:var(--faint);font-size:13px;text-align:center}
+.reveal{opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease}
+.reveal.on{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+  <div class="logo">Rofikuzzaman<span>.</span></div>
+  <div class="links">
+    <a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#project">Project</a><a href="#education">Education</a><a href="#contact">Contact</a>
+  </div>
+</div></nav>
+
+<header class="hero"><div class="wrap">
+  <div class="hero-grid">
+    <img class="avatar" src="data:image/jpeg;base64,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" alt="Md. Rofikuzzaman">
+    <div>
+      <h1>Md. Rofikuzzaman <span class="nick">(Setu)</span></h1>
+      <div class="role">Executive — Production Planning &amp; Control</div>
+      <p class="tag">Mechanical engineering professional with 9+ years across tower and tyre manufacturing — production planning, machine installation &amp; commissioning, maintenance, and data-driven cutting optimisation.</p>
+      <div class="btns">
+        <a class="btn primary" href="#contact">Contact Me</a>
+        <a class="btn" href="https://setu-75.github.io/Cutting-Optimization/" target="_blank" rel="noopener">My Cutting Optimizer App</a>
+        <a class="btn" href="#experience">View Experience</a>
+      </div>
+    </div>
+  </div>
+  <div class="stats">
+    <div class="stat"><b>9+</b><span>Years of Experience</span></div>
+    <div class="stat"><b>4</b><span>Companies Served</span></div>
+    <div class="stat"><b>2</b><span>Industries — Steel Tower &amp; Tyre</span></div>
+    <div class="stat"><b>1</b><span>Web App Designed &amp; Deployed</span></div>
+  </div>
+</div></header>
+
+<section id="about"><div class="wrap">
+  <h2>About Me</h2>
+  <p class="sub">Dedicated mechanical engineering professional with over 9 years of progressive experience in production planning &amp; control, machine installation &amp; commissioning, and preventive and breakdown maintenance within the tower manufacturing and tyre industries.</p>
+  <div class="card">
+    <p style="color:var(--dim)">I currently lead production planning at <b style="color:var(--text)">Global Steel &amp; Engineering Ltd. (GSEL)</b>, a steel tower manufacturer, where I build daily and weekly production schedules, prepare optimised cutting plans and material requirements for telecom and transmission tower projects, monitor machine downtime and output KPIs, and coordinate with procurement, quality control and logistics to keep production on schedule.</p>
+    <p style="color:var(--dim);margin-top:10px">Earlier, at NDE Steel Structures, I led the installation and commissioning of CNC angle drilling and punching lines, power saws and overhead cranes. At Gazi Tyres, I supervised the mixing section and the commissioning of high-capacity Banbury mixing machines with automated silo feeding systems. Alongside plant work, I design and build practical software tools for the factory floor — including a deployed Cutting Optimization web application used for real production cutting plans.</p>
+  </div>
+</div></section>
+
+<section id="experience"><div class="wrap">
+  <h2>Work Experience</h2>
+  <p class="sub">June 2017 — Present · 9 years 5 months</p>
+  <div class="timeline">
+    <div class="job reveal">
+      <h3>Executive — Production Planning &amp; Control</h3>
+      <div class="meta">Global Steel &amp; Engineering Ltd. · Jan 2023 — Present</div>
+      <div class="place">Shailabil, Paruhala, Dhamrai, Dhaka · Tower Manufacturing</div>
+      <ul>
+        <li>Develop detailed daily and weekly production schedules based on forecasts and inventory, optimising labour, material and machine utilisation.</li>
+        <li>Prepare optimised cutting plans, packing lists and material indents for telecom (Summit) and transmission (G2G) tower projects.</li>
+        <li>Track machine downtime, efficiency and output KPIs; identify bottlenecks and implement process improvements to reduce waste and stoppages.</li>
+        <li>Dynamically adjust production plans around machine breakdowns and material shortages to minimise production loss.</li>
+        <li>Coordinate with procurement and vendors for timely raw-material availability while minimising inventory overstock.</li>
+        <li>Partner with Quality Control to ensure all tower manufacturing meets technical specifications.</li>
+      </ul>
+    </div>
+    <div class="job reveal">
+      <h3>Assistant Engineer</h3>
+      <div class="meta">NDE Steel Structures Ltd. · Jan 2020 — Dec 2022</div>
+      <div class="place">Paragaon, Barachala, Bhaluka, Mymensingh · Tower Manufacturing</div>
+      <ul>
+        <li>Led the installation and commissioning of the ADM-3635 CNC angle drilling machine and APM-2020 angle punching machine for precise tower component manufacturing.</li>
+        <li>Managed installation and calibration of power saw machines for heavy-duty steel cutting.</li>
+        <li>Supervised installation and load testing of overhead cranes for safe, efficient material handling.</li>
+        <li>Performed functional testing and troubleshooting during commissioning to meet operational safety and quality standards.</li>
+      </ul>
+    </div>
+    <div class="job reveal">
+      <h3>Junior Engineer</h3>
+      <div class="meta">Confidence Infrastructure (Confidence Group) · Jul 2019 — Dec 2019</div>
+      <div class="place">Nayapur, Madanpur, Sonargaon, Narayanganj · Tower Manufacturing</div>
+      <ul>
+        <li>Machine operation and primary maintenance in tower production.</li>
+      </ul>
+    </div>
+    <div class="job reveal">
+      <h3>Sub Assistant Engineer</h3>
+      <div class="meta">Gazi Tyres (Gazi Group) · Jun 2017 — Jun 2019</div>
+      <div class="place">Khadun, Rupshi, Rupganj, Narayanganj · Tyre Manufacturing</div>
+      <ul>
+        <li>Supervised and optimised mixing section operations, including integration and commissioning of two high-capacity Banbury mixing machines.</li>
+        <li>Managed automated raw-material feeding through a large pneumatic silo system, ensuring precise ingredient proportions and reducing manual handling errors.</li>
+        <li>Monitored compounding cycles and temperature controls to maintain rubber quality standards and batch consistency.</li>
+        <li>Worked with the maintenance team to minimise downtime of silo pneumatic systems and Banbury rotors.</li>
+      </ul>
+    </div>
+  </div>
+</div></section>
+
+<section id="skills"><div class="wrap">
+  <h2>Core Skills</h2>
+  <p class="sub">A mix of plant-floor engineering, planning discipline and self-taught software skills.</p>
+  <div class="grid">
+    <div class="card skill reveal"><h3>Production Planning &amp; Control</h3><p>Production scheduling, cutting plans, material requirement planning, inventory &amp; stock control, downtime and KPI monitoring, Lean improvement.</p></div>
+    <div class="card skill reveal"><h3>Maintenance &amp; Commissioning</h3><p>Preventive &amp; breakdown maintenance, machine installation and commissioning, calibration, load testing and troubleshooting.</p></div>
+    <div class="card skill reveal"><h3>Machines &amp; Systems</h3><p>CNC angle drilling (ADM-3635) &amp; punching (APM-2020) machines, power saws, overhead cranes, Banbury mixers, pneumatic silo systems.</p></div>
+    <div class="card skill reveal"><h3>Design &amp; Modelling</h3><p>AutoCAD 2D drafting and engineering drawing reading; Tekla Structures tower modelling (telecom &amp; transmission towers).</p></div>
+    <div class="card skill reveal"><h3>Data &amp; Excel</h3><p>Advanced Excel — pivot tables, lookups, production reporting and data visualisation for planning decisions.</p></div>
+    <div class="card skill reveal"><h3>Software &amp; AI Tools</h3><p>HTML, CSS and Python for practical web tools; generative AI tools (Gemini, ChatGPT, DeepSeek) for problem-solving.</p></div>
+  </div>
+  <div style="margin-top:14px">
+    <span class="tag">Cutting Optimisation</span><span class="tag">Material Planning</span><span class="tag">CNC Machines</span><span class="tag">AutoCAD</span><span class="tag">Tekla Structures</span><span class="tag">MS Excel</span><span class="tag">HTML / CSS</span><span class="tag">Python</span><span class="tag">Lean / Six Sigma Basics</span><span class="tag">Team Coordination</span>
+  </div>
+</div></section>
+
+<section id="project"><div class="wrap">
+  <h2>Featured Project</h2>
+  <p class="sub">Software I designed and built myself, now used for real factory production.</p>
+  <div class="card project reveal">
+    <div class="txt">
+      <span class="badge">LIVE WEB APPLICATION</span>
+      <h3 style="font-size:21px;margin-bottom:8px">Advanced Cutting Optimizer</h3>
+      <p style="color:var(--dim)">A one-dimensional cutting-stock optimisation web app for steel angle and plate cutting. It packs required cut pieces into available stock lengths with minimum waste, reuses offcuts intelligently, and proves optimality on small jobs with an exact ILP (integer linear programming) solver. Built with a secure server-side paid login, visitor analytics and a free tier — and used to prepare real production cutting plans at GSEL.</p>
+      <div style="margin-top:12px">
+        <span class="tag">JavaScript</span><span class="tag">ILP Solver</span><span class="tag">Cloudflare Workers</span><span class="tag">GitHub Pages</span>
+      </div>
+      <div class="btns"><a class="btn primary" href="https://setu-75.github.io/Cutting-Optimization/" target="_blank" rel="noopener">Open the App</a></div>
+    </div>
+  </div>
+</div></section>
+
+<section id="achievements"><div class="wrap">
+  <h2>Achievements &amp; Highlights</h2>
+  <div class="card reveal"><ul class="ach">
+    <li><b>Cutting Optimization web app</b> — designed, built and deployed a production-grade cutting optimiser with an exact ILP solver and secure paid login; used for real tower cutting plans.</li>
+    <li><b>CNC line commissioning at NDE</b> — led installation &amp; commissioning of ADM-3635 drilling and APM-2020 punching machines, power saws and overhead cranes.</li>
+    <li><b>Banbury mixing line at Gazi Tyres</b> — supervised commissioning of two high-capacity Banbury mixers with automated silo feeding.</li>
+    <li><b>Tower project planning at GSEL</b> — production planning, cutting plans and packing documentation for large telecom (Summit) and transmission tower programmes.</li>
+    <li><b>Cross-industry experience</b> — 9+ years spanning tyre manufacturing and steel tower manufacturing, from shop-floor maintenance to production planning &amp; control.</li>
+  </ul></div>
+</div></section>
+
+<section id="education"><div class="wrap">
+  <h2>Education &amp; Training</h2>
+  <div class="kv">
+    <div class="card reveal"><h3>Diploma in Engineering — Mechanical Technology</h3><p>Khulna Polytechnic Institute, Khulna · BTEB<br>CGPA 3.30 / 4.00 · 2016</p></div>
+    <div class="card reveal"><h3>Secondary School Certificate — Business Studies</h3><p>Kharnia Union High School · Jessore Board<br>GPA 4.50 / 5.00 · 2012</p></div>
+    <div class="card reveal"><h3>Machine Tools Operation (MTO)</h3><p>6 months training · TTC, Khulna</p></div>
+    <div class="card reveal"><h3>Boiler &amp; Fire Detection / Protection</h3><p>New-Tech Int. Ltd, Banani, Dhaka · Aug — Oct 2016</p></div>
+  </div>
+  <h2 style="margin-top:36px">Languages</h2>
+  <div class="card reveal"><p style="color:var(--dim)"><b style="color:var(--text)">Bangla</b> — Native &nbsp;·&nbsp; <b style="color:var(--text)">English</b> — Fluent (reading, writing, speaking) &nbsp;·&nbsp; <b style="color:var(--text)">Hindi</b> — Spoken</p></div>
+</div></section>
+
+<footer id="contact"><div class="wrap">
+  <h2 style="margin-bottom:14px">Contact</h2>
+  <div class="cols">
+    <div>
+      <p><b style="color:var(--text)">Md. Rofikuzzaman (Setu)</b></p>
+      <p>Executive — Production Planning &amp; Control</p>
+      <p>Global Steel &amp; Engineering Ltd.</p>
+    </div>
+    <div>
+      <p>📞 <a href="tel:+8801947636775">+880 1947-636775</a></p>
+      <p>✉️ <a href="mailto:rofikuzzamansetu@gmail.com">rofikuzzamansetu@gmail.com</a></p>
+      <p>📍 Shailabil, Paruhala, Dhamrai, Dhaka 1351, Bangladesh</p>
+    </div>
+    <div>
+      <p>🔗 <a href="https://setu-75.github.io/Cutting-Optimization/" target="_blank" rel="noopener">Cutting Optimizer App</a></p>
+      <p>References available on request.</p>
+    </div>
+  </div>
+  <p class="copy">© 2026 Md. Rofikuzzaman · Portfolio</p>
+</div></footer>
+
+<script>
+(function(){
+  var els = document.querySelectorAll(".reveal");
+  if (!("IntersectionObserver" in window)) { els.forEach(function(e){ e.classList.add("on"); }); return; }
+  var io = new IntersectionObserver(function(es){
+    es.forEach(function(en){ if (en.isIntersecting) { en.target.classList.add("on"); io.unobserve(en.target); } });
+  }, { threshold: 0.12 });
+  els.forEach(function(e){ io.observe(e); });
+})();
+</script>
+</body>
+</html>
